@@ -1,7 +1,6 @@
-proxmox_api_url             = "https://192.168.88.239:8006/api2/json"
-proxmox_token_id            = "terraform@pam!terraform"
-proxmox_token               = "bdc8d71f-4ebb-4f8d-bd8d-bc1e8b5dc30d"
-proxmox_tls_insecure        = true
+proxmox_api_url             = "https://YOUR-IP:PORT/api2/json"
+proxmox_token_id            = "YOUR-TOKEN-ID"
+proxmox_token               = "YOUR TOKEN"
 
 # Overall Settings
 vm_storage                  = "local-lvm"
